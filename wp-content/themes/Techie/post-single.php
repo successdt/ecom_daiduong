@@ -2,8 +2,8 @@
 
     <div <?php post_class('post post-single clearfix'); ?> id="post-<?php the_ID(); ?>">
     
-        <h2 class="title"><?php the_title(); ?></h2>
-        
+        <h2 class="title sigle-post"><?php the_title(); ?></h2>
+        <?php /*
         <div class="postmeta-primary">
     
             <span class="meta_date"><?php echo get_the_date(); ?></span>
@@ -17,7 +17,7 @@
                     ?> &nbsp; <span class="meta_edit"><?php edit_post_link(); ?></span><?php
                 } ?> 
         </div>
-        
+        */ ?>
         <div class="entry clearfix">
             
             <?php
