@@ -135,7 +135,7 @@ body {
 #sidebar-primary .widget-container, #sidebar-secondary .widget-container, .custom-widget, .home-featured {
 	overflow: hidden;
 }
-.widget-container .widget h3, .custom-widget h3, .home-featured h3, h1.page-title {
+.widget-container .widget h3, .custom-widget h3, .home-featured h3, h1.page-title, h2.page-title, .title.sigle-post {
 	background: -webkit-linear-gradient(top, #c2c3c0, #000);
 	background: -moz-linear-gradient(top, #c2c3c0, #000);
 	background: -ms-linear-gradient(top, #c2c3c0, #000);
@@ -147,8 +147,11 @@ body {
 	margin: 0 !important;
 	text-transform: none;
 }
-.home-featured h3, h1.page-title {
+.home-featured h3, h1.page-title, h2.page-title, .title.sigle-post {
 	text-align: left;
+}
+.title.sigle-post {
+	margin-bottom: 10px !important;
 }
 .widget-container .widget > ul, .widget-container .widget > div {
 
@@ -267,7 +270,7 @@ ul.sub-menu li {
 	border-radius: 2px;
 	text-decoration: none;
 }
-span.price {
+span.price, p.price, input.qty, .product_meta .posted_in {
 	display: none !important;
 }
 mark.count {
@@ -275,4 +278,24 @@ mark.count {
 }
 .woocommerce ul.products h3 {
 	text-align: center;
+}
+.featured-image-container img {
+	width: 150px;
+}
+.post .featured-image-container {
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+.format-standard .entry {
+	float: left;
+	margin-left: 5px;
+	width: 600px;
+}
+.post {
+	margin-top: 10px;
+	border-bottom: 1px dotted #CCC;
+}
+.post-single {
+	margin-top: 0;
 }
