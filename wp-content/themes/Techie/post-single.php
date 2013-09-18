@@ -48,4 +48,27 @@
         if(comments_open( get_the_ID() ))  {
             comments_template('', true); 
         }
-    ?>
+    ?> 
+    	<div class="related-posts">
+			<h2 class="page-title">Xem nhiều hơn</h2>
+	    	<ul>
+				<?php do_action(
+				    'related_posts_by_category',
+				    array(
+				        'orderby' => 'RAND',
+				        'order' => 'DESC',
+				        'limit' => 5,
+				        'echo' => true,
+				        'before' => '<li>',
+				        'inside' => '&raquo; ',
+				        'outside' => '',
+				        'after' => '</li>',
+				        'rel' => 'nofollow',
+				        'type' => 'post',
+				        'message' => 'No matches'
+				  	)
+				) ?>		
+			
+			</ul>
+		</div>
+

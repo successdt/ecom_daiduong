@@ -171,4 +171,19 @@
 		}
 		return $currency_symbol;
 	}
+	// allow html in category and taxonomy descriptions
+	remove_filter( 'pre_term_description', 'wp_filter_kses' );
+	remove_filter( 'pre_link_description', 'wp_filter_kses' );
+	remove_filter( 'pre_link_notes', 'wp_filter_kses' );
+	remove_filter( 'term_description', 'wp_kses_data' );
+	add_filter('loop_shop_columns', 'loop_columns');
+	
+	//change product to 3 columns
+	if (!function_exists('loop_columns')) {
+		function loop_columns() {
+			return 3; // 3 products per row
+		}
+	}
+	//max product to 12
+	add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 12;' ), 20 );
 ?>
