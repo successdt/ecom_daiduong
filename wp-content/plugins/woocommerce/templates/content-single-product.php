@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 ?>
 
 <div itemscope itemtype="http://schema.org/Product" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
-
+	<h3 itemprop="name" class="product_title entry-title"><?php the_title(); ?></h3>
 	<?php
 		/**
 		 * woocommerce_show_product_images hook
