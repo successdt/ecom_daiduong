@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-09-05 14:36+0700\n"
+"PO-Revision-Date: 2013-09-19 18:54+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: wp-admin/themes.php:111
 msgid "Settings saved and theme activated. <a href=\"%s\">Visit site</a>."
-msgstr ""
+msgstr "Thiết lập được lưu và giao diện được kích hoạt"
 
 #: wp-admin/custom-header.php:122
 msgid ""
@@ -24,18 +24,20 @@ msgid ""
 "use an image that has already been uploaded to your Media Library by "
 "clicking the &#8220;Choose Image&#8221; button."
 msgstr ""
+"Bạn có thể set tiêu đề cho phần header trang web của bạn, đơn giản là upload "
+"file ảnh và cắt nó..."
 
 #: wp-admin/custom-header.php:771
 msgid "Skip Cropping, Publish Image as Is"
-msgstr ""
+msgstr "Bỏ qua việc cắt ảnh, Đăng ảnh là"
 
 #: wp-admin/about.php:70
 msgid "Twitter Embeds"
-msgstr ""
+msgstr "Nhúng Twiiter"
 
 #: wp-admin/about.php:75
 msgid "Share Tweets with Style"
-msgstr ""
+msgstr "Chia sẻ theme"
 
 #: wp-admin/about.php:76
 msgid ""
@@ -43,12 +45,14 @@ msgid ""
 "allow readers to reply to, retweet, and favorite the tweet without leaving "
 "your site. Just paste a tweet URL on its own line."
 msgstr ""
+"Bạn có thể nhúng các bài post, nó bao gồm các  cho phép phản hồi hoặc thêm "
+"vào danh mục ưa thích"
 
 #: wp-admin/about.php:77
 msgid ""
 "This works with URLs from some other sites, too. For more, see the Codex "
 "article on <a href=\"%s\">Embeds</a>."
-msgstr ""
+msgstr "Công việc với URL này từ các trang khác, Th"
 
 #: wp-admin/about.php:77
 msgid "http://codex.wordpress.org/Embeds"
@@ -107,7 +111,7 @@ msgstr ""
 
 #: wp-admin/customize.php:90
 msgid "You are previewing %s"
-msgstr ""
+msgstr "Bạn đang xem trước %s"
 
 #: wp-admin/about.php:99
 msgid "Faster WP_Query"
@@ -131,15 +135,15 @@ msgstr ""
 
 #: wp-admin/custom-background.php:256 wp-admin/custom-header.php:529
 msgid "Select Image"
-msgstr ""
+msgstr "Chọn ảnh"
 
 #: wp-admin/custom-background.php:271 wp-admin/custom-header.php:563
 msgid "Or choose an image from your media library:"
-msgstr ""
+msgstr "Hoặc chọn 1 ảnh từ media của bạn"
 
 #: wp-admin/custom-background.php:272 wp-admin/custom-header.php:564
 msgid "Choose Image"
-msgstr ""
+msgstr "Chọn ảnh"
 
 #: wp-admin/about.php:102
 msgid "Faster Translations"
@@ -173,12 +177,12 @@ msgstr ""
 
 #: wp-admin/customize.php:58
 msgid "Customize %s"
-msgstr ""
+msgstr "Tuỳ chỉnh %s"
 
 #: wp-admin/customize.php:117
 #: wp-admin/includes/class-wp-theme-install-list-table.php:263
 msgid "Collapse"
-msgstr ""
+msgstr "Thu lên"
 
 #: wp-admin/about.php:109
 msgid "Custom Header and Background API"
@@ -293,18 +297,18 @@ msgstr ""
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:206
 msgctxt "plugin"
 msgid "Installed"
-msgstr ""
+msgstr "Đã cài đặt"
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:219
 #: wp-admin/includes/class-wp-theme-install-list-table.php:332
 msgid "This theme is already installed and is up to date"
-msgstr ""
+msgstr "Theme này đã được cài đặt phiên bản mới nhất"
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:219
 #: wp-admin/includes/class-wp-theme-install-list-table.php:332
 msgctxt "theme"
 msgid "Installed"
-msgstr ""
+msgstr "Đã cài đặt"
 
 #: wp-admin/theme-install.php:51
 msgid ""
@@ -316,7 +320,7 @@ msgstr ""
 
 #: wp-admin/theme-install.php:56
 msgid "Previewing and Installing"
-msgstr ""
+msgstr "Xem trước và cài đặt"
 
 #: wp-admin/themes.php:74
 msgid ""
@@ -345,7 +349,7 @@ msgstr ""
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:223
 msgid "Preview %s"
-msgstr ""
+msgstr "Xem trước %s"
 
 #: wp-admin/tools.php:22
 msgid ""
@@ -436,7 +440,7 @@ msgstr ""
 
 #: wp-admin/install.php:167
 msgid "Configuration Error"
-msgstr ""
+msgstr "Lỗi cấu hình"
 
 #: wp-admin/install.php:167
 msgid ""
@@ -453,11 +457,11 @@ msgstr ""
 #: wp-admin/users.php:350
 msgid "User deleted."
 msgid_plural "%s users deleted."
-msgstr[0] ""
+msgstr[0] "Người dùng đã bi xoá"
 
 #: wp-admin/users.php:354
 msgid "New user created. <a href=\"%s\">Edit user</a>"
-msgstr ""
+msgstr "Tạo mới User. <a href=\"%s\">Sửa user</a>"
 
 #: wp-admin/includes/class-wp-upgrader.php:1014
 msgid "Could not copy files. You may have run out of disk space."
@@ -492,15 +496,15 @@ msgstr ""
 
 #: wp-admin/includes/class-wp-themes-list-table.php:182
 msgid "Version: "
-msgstr ""
+msgstr "Phiên bản:"
 
 #: wp-admin/custom-background.php:402
 msgid "Set as background"
-msgstr ""
+msgstr "Đặt làm ảnh nền"
 
 #: wp-admin/custom-header.php:946
 msgid "Set as header"
-msgstr ""
+msgstr "Đặt làm header"
 
 #: wp-admin/includes/class-wp-upgrader.php:1575 wp-admin/themes.php:126
 msgid "Customize &#8220;%s&#8221;"
@@ -514,7 +518,7 @@ msgstr ""
 #: wp-admin/includes/plugin-install.php:126
 #: wp-admin/includes/theme-install.php:62
 msgid "Keyword"
-msgstr ""
+msgstr "Từ khoá"
 
 #: wp-admin/includes/class-wp-upgrader.php:668
 msgid "This theme requires a parent theme. Checking if it is installed&#8230;"
@@ -564,19 +568,19 @@ msgstr ""
 
 #: wp-admin/includes/plugin.php:168
 msgid "By %s."
-msgstr ""
+msgstr "Bởi %s."
 
 #: wp-admin/includes/meta-boxes.php:476
 msgid "Add comment"
-msgstr ""
+msgstr "Thêm bình luận"
 
 #: wp-admin/includes/template.php:331
 msgid "Add new Comment"
-msgstr ""
+msgstr "Thêm mới bình luận"
 
 #: wp-admin/includes/template.php:360
 msgid "Add Comment"
-msgstr ""
+msgstr "Thêm bình luận"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:334
 msgid "Broken Theme:"
@@ -612,7 +616,7 @@ msgid ""
 msgstr ""
 
 msgid "Automattic"
-msgstr ""
+msgstr "Tự động"
 
 msgid "http://automattic.com/wordpress-plugins/"
 msgstr ""
@@ -796,7 +800,7 @@ msgstr ""
 
 #: wp-admin/includes/ms.php:40
 msgid "Back"
-msgstr ""
+msgstr "Quay lại"
 
 #: wp-admin/includes/ms.php:189
 msgid ""
@@ -965,7 +969,7 @@ msgstr ""
 
 #: wp-admin/includes/ms.php:476
 msgid "View Site"
-msgstr ""
+msgstr "Xem trang"
 
 #: wp-admin/includes/class-wp-ms-users-list-table.php:98
 msgid "Super Admin <span class=\"count\">(%s)</span>"
@@ -986,7 +990,7 @@ msgstr ""
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:299
 msgid "Delete this theme"
-msgstr ""
+msgstr "Xoá theme này"
 
 #: wp-admin/includes/ms.php:381
 msgid "Site Upload Space Quota "
@@ -1015,7 +1019,7 @@ msgstr ""
 
 #: wp-admin/includes/ms.php:517
 msgid "English"
-msgstr ""
+msgstr "Tiếng anh"
 
 #: wp-admin/my-sites.php:64
 msgid "You must be a member of at least one site to use this page."
@@ -2104,7 +2108,7 @@ msgstr ""
 
 #: wp-admin/about.php:20 wp-admin/credits.php:53 wp-admin/freedoms.php:20
 msgid "Welcome to WordPress %s"
-msgstr ""
+msgstr "Chào mừng đến với Wordpress!"
 
 #: wp-admin/about.php:129
 msgid "Go to Dashboard &rarr; Home"
@@ -2474,7 +2478,7 @@ msgstr ""
 #: wp-admin/user-edit.php:47 wp-admin/user-new.php:154 wp-admin/users.php:25
 #: wp-admin/widgets.php:44
 msgid "Overview"
-msgstr ""
+msgstr "Tổng quan"
 
 #: wp-admin/menu.php:37
 msgid "Updates %s"
@@ -2516,12 +2520,12 @@ msgstr ""
 #: wp-admin/menu.php:184 wp-admin/menu.php:186 wp-admin/user-new.php:133
 #: wp-admin/user-new.php:295
 msgid "Add New User"
-msgstr ""
+msgstr "Thêm mới user"
 
 #: wp-admin/users.php:20
 msgctxt "users per page (screen options)"
 msgid "Users"
-msgstr ""
+msgstr "Người dùng"
 
 #: wp-admin/options-discussion.php:13 wp-admin/options-general.php:13
 #: wp-admin/options-media.php:13 wp-admin/options-permalink.php:13
@@ -2533,15 +2537,15 @@ msgstr ""
 #: wp-admin/menu.php:161
 msgctxt "plugin editor"
 msgid "Editor"
-msgstr ""
+msgstr "Trình soạn thảo"
 
 #: wp-admin/menu.php:156
 msgid "Installed Plugins"
-msgstr ""
+msgstr "Đã cài plugined"
 
 #: wp-admin/users.php:224
 msgid "Confirm Deletion"
-msgstr ""
+msgstr "Xác nhận xoá"
 
 #: wp-admin/users.php:220
 msgid "Attribute all posts and links to:"
@@ -2565,20 +2569,20 @@ msgstr ""
 #: wp-admin/includes/meta-boxes.php:130 wp-admin/includes/meta-boxes.php:180
 #: wp-admin/includes/post.php:1123 wp-admin/includes/widgets.php:182
 msgid "Edit"
-msgstr ""
+msgstr "Chỉnh sửa"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:251
 #: wp-admin/includes/class-wp-plugins-list-table.php:250
 #: wp-admin/includes/class-wp-plugins-list-table.php:362
 msgid "Deactivate"
-msgstr ""
+msgstr "Vô hiệu hoá"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:306
 #: wp-admin/includes/class-wp-plugins-list-table.php:381
 #: wp-admin/includes/template.php:1331 wp-admin/nav-menus.php:505
 #: wp-admin/plugin-editor.php:200 wp-admin/theme-editor.php:156
 msgid "Select"
-msgstr ""
+msgstr "Chọn"
 
 #: wp-admin/about.php:24 wp-admin/credits.php:57 wp-admin/freedoms.php:24
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:343
@@ -2586,7 +2590,7 @@ msgstr ""
 #: wp-admin/includes/dashboard.php:1255 wp-admin/includes/update.php:86
 #: wp-admin/includes/update.php:109 wp-admin/themes.php:147
 msgid "Version %s"
-msgstr ""
+msgstr "Phiên bản"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:345
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:183
@@ -2596,11 +2600,11 @@ msgstr ""
 #: wp-admin/includes/class-wp-themes-list-table.php:168
 #: wp-admin/themes.php:146
 msgid "By %s"
-msgstr ""
+msgstr "Bởi %s"
 
 #: wp-admin/user-new.php:213
 msgid "User added."
-msgstr ""
+msgstr "Thêm user mới"
 
 #: wp-admin/includes/class-wp-media-list-table.php:367
 #: wp-admin/includes/class-wp-media-list-table.php:386
@@ -2608,7 +2612,7 @@ msgstr ""
 #: wp-admin/includes/class-wp-posts-list-table.php:552
 #: wp-admin/includes/class-wp-terms-list-table.php:263
 msgid "View"
-msgstr ""
+msgstr "Xem"
 
 #: wp-admin/includes/class-wp-ms-users-list-table.php:184
 #: wp-admin/user-edit.php:269
@@ -2624,7 +2628,7 @@ msgstr ""
 #: wp-admin/includes/nav-menu.php:1140 wp-admin/press-this.php:146
 #: wp-admin/press-this.php:642 wp-admin/themes.php:284
 msgid "Description"
-msgstr ""
+msgstr "Mô tả"
 
 #: wp-admin/users.php:238 wp-admin/users.php:246 wp-admin/users.php:275
 #: wp-admin/users.php:283
@@ -2660,24 +2664,24 @@ msgstr ""
 
 #: wp-admin/users.php:362
 msgid "Changed roles."
-msgstr ""
+msgstr "Thay đổi Roles"
 
 #: wp-admin/users.php:373
 msgid "User removed from this site."
-msgstr ""
+msgstr "User được xoá khỏi trang"
 
 #: wp-admin/includes/dashboard.php:442 wp-admin/users.php:417
 msgid "Search Users"
-msgstr ""
+msgstr "Tìm kiếm users"
 
 #: wp-admin/user-new.php:256
 msgid "Add Existing User"
-msgstr ""
+msgstr "Thêm user đã tồn tại"
 
 #: wp-admin/includes/class-wp-users-list-table.php:166
 #: wp-admin/user-new.php:275 wp-admin/user-new.php:355
 msgid "Role"
-msgstr ""
+msgstr "Vai trò"
 
 #: wp-admin/includes/class-wp-ms-users-list-table.php:96
 #: wp-admin/includes/class-wp-users-list-table.php:101
@@ -2710,7 +2714,7 @@ msgstr ""
 #: wp-admin/users.php:404
 msgctxt "user"
 msgid "Add New"
-msgstr ""
+msgstr "Thêm mới"
 
 #: wp-admin/includes/post.php:904
 msgid "Images"
@@ -2741,11 +2745,11 @@ msgstr ""
 #: wp-admin/includes/template.php:495 wp-admin/includes/widgets.php:206
 #: wp-admin/widgets.php:293
 msgid "Delete"
-msgstr ""
+msgstr "Xoá"
 
 #: wp-admin/menu.php:173
 msgid "All Users"
-msgstr ""
+msgstr "Tất cả User"
 
 #: wp-admin/edit-form-advanced.php:125
 msgid "Attributes"
@@ -2754,7 +2758,7 @@ msgstr ""
 #: wp-admin/includes/class-wp-theme-install-list-table.php:325
 #: wp-admin/includes/dashboard.php:977
 msgid "Install"
-msgstr ""
+msgstr "Cài đặt"
 
 #: wp-admin/menu.php:154
 msgid "Plugins %s"
@@ -2762,7 +2766,7 @@ msgstr ""
 
 #: wp-admin/menu.php:194 wp-admin/ms-delete-site.php:28
 msgid "Delete Site"
-msgstr ""
+msgstr "Xoá Site"
 
 #: wp-admin/edit-form-advanced.php:196
 msgid "Publish Box"
@@ -2770,7 +2774,7 @@ msgstr ""
 
 #: wp-admin/edit-form-advanced.php:221
 msgid "About Pages"
-msgstr ""
+msgstr "Về các trang"
 
 #: wp-admin/edit-form-advanced.php:171
 msgid "Customizing This Display"
@@ -2778,7 +2782,7 @@ msgstr ""
 
 #: wp-admin/edit-form-advanced.php:180
 msgid "Title and Post Editor"
-msgstr ""
+msgstr "Trình soạn thảo Tiêu đề và Post"
 
 #: wp-admin/includes/media.php:1402
 msgid "Maximum upload file size: %d%s."
@@ -2802,7 +2806,7 @@ msgstr ""
 
 #: wp-admin/options-permalink.php:211
 msgid "Post name"
-msgstr ""
+msgstr "Tên Post"
 
 #: wp-admin/options-permalink.php:200 wp-admin/options-permalink.php:204
 #: wp-admin/options-permalink.php:212
@@ -2823,7 +2827,7 @@ msgstr ""
 
 #: wp-admin/options-general.php:110
 msgid "Site Address (URL)"
-msgstr ""
+msgstr "Địa chỉ trang"
 
 #: wp-admin/options-general.php:115 wp-admin/options-general.php:134
 msgid "E-mail Address"
@@ -3191,7 +3195,7 @@ msgstr ""
 
 #: wp-admin/custom-background.php:332
 msgid "Clear"
-msgstr ""
+msgstr "Xoá"
 
 #: wp-admin/custom-header.php:594
 msgid ""
@@ -3230,7 +3234,7 @@ msgstr ""
 
 #: wp-admin/custom-header.php:578
 msgid "Uploaded Images"
-msgstr ""
+msgstr "Tải ảnh lên"
 
 #: wp-admin/media-upload.php:84
 msgid ""
@@ -3451,11 +3455,11 @@ msgstr[0] ""
 
 #: wp-admin/user-edit.php:169
 msgid "&larr; Back to Users"
-msgstr ""
+msgstr "&larr; Quay về Users"
 
 #: wp-admin/includes/ajax-actions.php:1074
 msgid "Autosave disabled."
-msgstr ""
+msgstr "Tự động save được vô hiệu hoá"
 
 #: wp-admin/includes/ajax-actions.php:1077
 msgid ""
@@ -3474,7 +3478,7 @@ msgstr ""
 
 #: wp-admin/press-this.php:478
 msgid "Post Format:"
-msgstr ""
+msgstr "Định dạng Post"
 
 #: wp-admin/plugins.php:261
 msgid "This plugin may be active on other sites in the network."
@@ -3487,7 +3491,7 @@ msgstr ""
 
 #: wp-admin/options-writing.php:100
 msgid "Default Post Format"
-msgstr ""
+msgstr "Post theo định dạng mặc định"
 
 #: wp-admin/update-core.php:22 wp-admin/update-core.php:484
 #: wp-admin/update-core.php:513
@@ -3506,11 +3510,11 @@ msgstr ""
 
 #: wp-admin/user-new.php:373
 msgid "Add New User "
-msgstr ""
+msgstr "Thêm mới User"
 
 #: wp-admin/user-new.php:288
 msgid "Add Existing User "
-msgstr ""
+msgstr "Thêm User đã tồn tại"
 
 #: wp-admin/plugin-editor.php:122 wp-admin/theme-editor.php:33
 msgid ""
@@ -3591,7 +3595,7 @@ msgstr ""
 
 #: wp-admin/includes/upgrade.php:262
 msgid "Sample Page"
-msgstr ""
+msgstr "Trang ví dụ"
 
 #: wp-admin/options-discussion.php:221
 msgid "Retro (Generated)"
@@ -3774,11 +3778,11 @@ msgstr ""
 
 #: wp-admin/includes/meta-boxes.php:254 wp-admin/options-writing.php:103
 msgid "Standard"
-msgstr ""
+msgstr "Tiêu chuẩn"
 
 #: wp-admin/export.php:150 wp-admin/export.php:182
 msgid "Date range:"
-msgstr ""
+msgstr "Sắp xếp theo ngày:"
 
 #: wp-admin/export.php:134
 msgid ""
@@ -3788,15 +3792,15 @@ msgstr ""
 
 #: wp-admin/export.php:130
 msgid "Choose what to export"
-msgstr ""
+msgstr "Chọn Export cái gì"
 
 #: wp-admin/export.php:143 wp-admin/export.php:175
 msgid "Authors:"
-msgstr ""
+msgstr "Tác giả:"
 
 #: wp-admin/export.php:133
 msgid "All content"
-msgstr ""
+msgstr "Tất cả nội dung"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:201
 msgctxt "themes"
@@ -3827,7 +3831,7 @@ msgstr ""
 #: wp-admin/includes/class-wp-comments-list-table.php:258
 msgctxt "column name"
 msgid "In Response To"
-msgstr ""
+msgstr "Trả lời trong mục"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:355
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
@@ -3887,7 +3891,7 @@ msgstr ""
 
 #: wp-admin/user-new.php:262
 msgid "E-mail or Username"
-msgstr ""
+msgstr "E-mail or Username"
 
 #: wp-admin/user-new.php:208
 msgid "Please enter a valid email address."
@@ -3940,7 +3944,7 @@ msgstr ""
 
 #: wp-admin/update-core.php:154
 msgid "Check Again"
-msgstr ""
+msgstr "Kiểm tra lại"
 
 #: wp-admin/includes/class-wp-upgrader.php:1235
 msgid ""
@@ -3950,7 +3954,7 @@ msgstr ""
 
 #: wp-admin/admin-header.php:27
 msgid "Global Dashboard"
-msgstr ""
+msgstr "Màn hình Dashoard"
 
 #: wp-admin/options-general.php:256
 msgid ""
@@ -3966,15 +3970,15 @@ msgstr ""
 
 #: wp-admin/themes.php:229
 msgid "Theme filters"
-msgstr ""
+msgstr "Lọc theo theme"
 
 #: wp-admin/themes.php:255
 msgid "Apply Filters"
-msgstr ""
+msgstr "Áp dụng cho bộ lọc"
 
 #: wp-admin/themes.php:257
 msgid "Close filters"
-msgstr ""
+msgstr "Đóng bộ lọc"
 
 #: wp-admin/includes/theme.php:200
 msgid "RTL Language Support"
@@ -5177,7 +5181,7 @@ msgstr ""
 
 #: wp-admin/import.php:107
 msgid "Install importer"
-msgstr ""
+msgstr "Cài đặt quan trọng"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:128
 msgctxt "site"
@@ -5252,7 +5256,7 @@ msgstr ""
 
 #: wp-admin/includes/nav-menu.php:385
 msgid "Theme Locations"
-msgstr ""
+msgstr "Vị trí của theme"
 
 #: wp-admin/includes/meta-boxes.php:348 wp-admin/press-this.php:521
 msgid "+ %s"
@@ -5287,7 +5291,7 @@ msgstr ""
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:239
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:290
 msgid "Enable"
-msgstr ""
+msgstr "Kích hoạt"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:233
 msgctxt "%1$s: site name. %2$s: site tagline."
@@ -5297,7 +5301,7 @@ msgstr ""
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:149
 msgctxt "site"
 msgid "Registered"
-msgstr ""
+msgstr "Đã đăng ký"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:129
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:259
@@ -5308,7 +5312,7 @@ msgstr ""
 #: wp-admin/includes/class-wp-ms-users-list-table.php:118
 msgctxt "user"
 msgid "Registered"
-msgstr ""
+msgstr "Đã đăng ký"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:256
 msgctxt "verb; site"
@@ -5341,7 +5345,7 @@ msgstr ""
 
 #: wp-admin/includes/nav-menu.php:556
 msgid "Label"
-msgstr ""
+msgstr "Tiêu đề"
 
 #: wp-admin/nav-menus.php:502
 msgid "Add New Menu"
@@ -5405,7 +5409,7 @@ msgstr ""
 
 #: wp-admin/users.php:298
 msgid "Remove Users from Site"
-msgstr ""
+msgstr "Xoá user từ trang"
 
 #: wp-admin/includes/post.php:543
 msgid "You are not allowed to create posts or drafts on this site."
@@ -5425,7 +5429,7 @@ msgstr ""
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:121
 msgid "No sites found."
-msgstr ""
+msgstr "Không tìm thấy site nào"
 
 #: wp-admin/includes/meta-boxes.php:403
 msgid ""
@@ -5525,7 +5529,7 @@ msgstr ""
 
 #: wp-admin/includes/nav-menu.php:608 wp-admin/includes/nav-menu.php:824
 msgid "No items."
-msgstr ""
+msgstr "Không có Item nào"
 
 #: wp-admin/nav-menus.php:547
 msgid "Menu Name"
@@ -5930,7 +5934,7 @@ msgstr ""
 
 #: wp-admin/includes/nav-menu.php:142
 msgid "Title Attribute"
-msgstr ""
+msgstr "Tiêu đề của thuộc tích"
 
 #: wp-admin/nav-menus.php:292
 msgid "The <strong>%s</strong> menu has been successfully created."
@@ -6009,7 +6013,7 @@ msgstr ""
 
 #: wp-admin/includes/upgrade.php:75
 msgid "User already exists. Password inherited."
-msgstr ""
+msgstr "User đã tồn tại, password đã được thừa kế"
 
 #: wp-admin/install.php:207
 msgid "your passwords do not match. Please try again"
@@ -6115,7 +6119,7 @@ msgstr ""
 
 #: wp-admin/plugins.php:293
 msgid "Yes, Delete these files and data"
-msgstr ""
+msgstr "Vâng, xoá các file này"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:340
 msgid "Requires <code>%s</code> in <code>wp-config.php</code>."
@@ -6293,7 +6297,7 @@ msgstr "Lặp lại"
 
 #: wp-admin/custom-background.php:314
 msgid "Attachment"
-msgstr ""
+msgstr "Đính kèm"
 
 #: wp-admin/edit-comments.php:213
 msgid "This comment is already in the Trash."
@@ -6881,7 +6885,7 @@ msgstr ""
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:303
 msgid "More"
-msgstr ""
+msgstr "Xem thêm"
 
 #: wp-admin/update-core.php:297 wp-admin/update-core.php:324
 #: wp-admin/update-core.php:529 wp-admin/update-core.php:534
@@ -9173,7 +9177,7 @@ msgstr "Không thể tạo thư mục"
 
 #: wp-admin/includes/file.php:578 wp-admin/includes/file.php:672
 msgid "Incompatible Archive."
-msgstr ""
+msgstr "Không tương thích"
 
 #: wp-admin/includes/class-wp-upgrader.php:57
 msgid "Enabling Maintenance mode&#8230;"
