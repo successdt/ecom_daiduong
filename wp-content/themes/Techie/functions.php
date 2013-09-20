@@ -186,4 +186,10 @@
 	}
 	//max product to 12
 	add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 12;' ), 20 );
+	
+	
+	add_filter('woocommerce_free_price_html', 'changeFreePriceNotice', 10, 2);
+	function changeFreePriceNotice($price, $product) {
+		return '0 VND';
+	}
 ?>

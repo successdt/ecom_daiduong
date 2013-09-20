@@ -135,7 +135,7 @@ body {
 #sidebar-primary .widget-container, #sidebar-secondary .widget-container, .custom-widget, .home-featured {
 	overflow: hidden;
 }
-.widget-container .widget h3, .custom-widget h3, .home-featured h3, h1.page-title, h2.page-title, .title.sigle-post, h3.product_title {
+.widget-container .widget h3, .custom-widget h3, .home-featured h1, h1.page-title, h2.page-title, .title.sigle-post, h1.product_title {
 	background: -webkit-linear-gradient(top, #c2c3c0, #000);
 	background: -moz-linear-gradient(top, #c2c3c0, #000);
 	background: -ms-linear-gradient(top, #c2c3c0, #000);
@@ -147,10 +147,10 @@ body {
 	margin: 0 !important;
 	text-transform: none;
 }
-.home-featured h3, h1.page-title, h2.page-title, .title.sigle-post, h3.product_title {
+.home-featured h1, h1.page-title, h2.page-title, .title.sigle-post, h1.product_title {
 	text-align: left;
 }
-h3.product_title {
+h1.product_title {
 	margin-bottom: 20px !important;
 }
 .title.sigle-post {
@@ -273,7 +273,7 @@ ul.sub-menu li {
 	border-radius: 2px;
 	text-decoration: none;
 }
-span.price, p.price, input.qty, .product_meta .posted_in, .woocommerce-result-count, .orderby{
+span.price, input.qty, .product_meta .posted_in, .woocommerce-result-count, .orderby{
 	display: none !important;
 }
 mark.count {
@@ -368,4 +368,12 @@ a.page-numbers {
 	color: #FFFFFF !important;
 	border: 1px solid gray;
 	width: 80px;
+}
+
+div.images {
+	width: 150px !important;
+	height: 150px !important;
+}
+.woocommerce div.summary {
+	width: 75% !important;
 }
