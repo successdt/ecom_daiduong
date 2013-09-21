@@ -8,7 +8,7 @@
             
             <?php $theme->hook('content_before'); ?>
         
-            <h2 class="page-title"><?php
+            <h1 class="page-title"><?php
     
                /* If this is a daily archive */ 
                if (is_day()) { printf( __( 'Daily Archives: <span>%s</span>', 'themater' ), get_the_date() ); 
@@ -21,7 +21,7 @@
                 
                 /* If this is a general archive */ 
                 } else { _e( 'Blog Archives', 'themater' ); } 
-            ?></h2>
+            ?></h1>
         
             <?php 
                 if (have_posts()) : while (have_posts()) : the_post();

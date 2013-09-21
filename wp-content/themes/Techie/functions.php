@@ -172,11 +172,11 @@
 		return $currency_symbol;
 	}
 	// allow html in category and taxonomy descriptions
-	remove_filter( 'pre_term_description', 'wp_filter_kses' );
-	remove_filter( 'pre_link_description', 'wp_filter_kses' );
-	remove_filter( 'pre_link_notes', 'wp_filter_kses' );
-	remove_filter( 'term_description', 'wp_kses_data' );
-	add_filter('loop_shop_columns', 'loop_columns');
+//	remove_filter( 'pre_term_description', 'wp_filter_kses' );
+//	remove_filter( 'pre_link_description', 'wp_filter_kses' );
+//	remove_filter( 'pre_link_notes', 'wp_filter_kses' );
+//	remove_filter( 'term_description', 'wp_kses_data' );
+//	add_filter('loop_shop_columns', 'loop_columns');
 	
 	//change product to 3 columns
 	if (!function_exists('loop_columns')) {
