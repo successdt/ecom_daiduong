@@ -178,13 +178,13 @@
 //	remove_filter( 'term_description', 'wp_kses_data' );
 //	add_filter('loop_shop_columns', 'loop_columns');
 	
-	//change product to 3 columns
+	// Change number or products per row to 3
+	add_filter('loop_shop_columns', 'loop_columns');
 	if (!function_exists('loop_columns')) {
 		function loop_columns() {
 			return 3; // 3 products per row
 		}
 	}
-	//max product to 12
 	add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 12;' ), 20 );
 	
 	
