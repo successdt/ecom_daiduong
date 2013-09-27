@@ -14,6 +14,6 @@ global $woocommerce, $post;
 $heading = esc_html( apply_filters('woocommerce_product_description_heading', __( 'Product Description', 'woocommerce' ) ) );
 ?>
 
-<h2><?php echo $heading; ?></h2>
+<div class="related-posts-title"><?php echo $heading; ?></div>
 
 <?php the_content(); ?>
